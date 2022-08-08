@@ -1,6 +1,6 @@
 const Sequelize = require('sequelize')
 //conexão com o banco de dados MsSQL
-const sequelize = new Sequelize('Bordados', 'sa', '@Blindado31', {
+const sequelize = new Sequelize('', '', '', {
   host: "localhost",
   dialect: "mssql",
   query:{raw:true}
